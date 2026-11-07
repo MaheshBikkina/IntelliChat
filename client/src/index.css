@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Schoolbell&family=Patrick+Hand&display=swap');
+:root {
+  font-family: "Inter", sans-serif;
+
+  --bg-primary: #F4EBD0;
+  --bg-secondary: #E5D8B5;
+  --bg-tertiary: #D8C9A5;
+
+  --surface: #FFF9E9;
+
+  --text-primary: #283618;
+  --text-secondary: #606C38;
+  --text-muted: #89815F;
+
+  --border-color: #C9B98F;
+
+  --button-bg: #606C38;
+  --button-text: #FFF9E9;
+
+  --accent: #BC6C25;
+  --highlight: #DDA15E;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-image: url('./public/VintageIndianClassroomInGoldenLight-2.png');
+  /* background-image: url('./public/SunlitRusticClassroomNostalgia-1.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 100px;
+  background-position-y: 68px;
+}
+
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg-primary: #17191f;
+  --bg-secondary: #20232b;
+  --bg-tertiary: #292d36;
+
+  --text-primary: #f5f5f5;
+  --text-secondary: #c0c4cc;
+  --text-muted: #9299a5;
+
+  --border-color: #343741;
+  --input-bg: #20232b;
+
+  --button-bg: #f5f5f5;
+  --button-text: #17191f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
